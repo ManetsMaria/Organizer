@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="enter_text_here">Enter text here</string>
+    <string name="title">Title</string>
+    <string name="enter_long_text_here">Enter long text here</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_option">Select an option</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

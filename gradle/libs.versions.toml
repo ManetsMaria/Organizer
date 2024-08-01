@@ -1,0 +1,41 @@
+[versions]
+agp = "8.5.1"
+daggerAndroid = "2.37"
+hiltAndroid = "2.40.5"
+hiltAndroidVersion = "2.43.2"
+hiltCompiler = "2.43.2"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+roomRuntime = "2.4.3"
+roomTesting = "2.6.1"
+
+[libraries]
+dagger = { module = "com.google.dagger:dagger", version.ref = "hiltCompiler" }
+dagger-android = { module = "com.google.dagger:dagger-android", version.ref = "daggerAndroid" }
+dagger-android-processor = { module = "com.google.dagger:dagger-android-processor", version.ref = "daggerAndroid" }
+dagger-android-support = { module = "com.google.dagger:dagger-android-support", version.ref = "daggerAndroid" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "hiltCompiler" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hiltCompiler" }
+hilt-android-v2432 = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroidVersion" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltCompiler" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomTesting" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomTesting" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+room-testing = { module = "androidx.room:room-testing", version.ref = "roomTesting" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
